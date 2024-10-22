@@ -1,0 +1,21 @@
+{
+	"name": "expensy-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node-dev --respawn src/index.ts",
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"node-telegram-bot-api": "^0.66.0",
+		"ts-node-dev": "^2.0.0"
+	},
+	"devDependencies": {
+		"@types/node-telegram-bot-api": "^0.64.7",
+		"typescript": "^5.5.4"
+	}
+}
